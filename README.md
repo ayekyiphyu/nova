@@ -1,50 +1,88 @@
-# Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
-
-## Get started
+## Product Folder Structure
 
 1. Install dependencies
 
    ```bash
-   npm install
+  nova-city/
+├── App.tsx                          # Main app entry point
+├── app.json                         # Expo configuration
+├── package.json
+├── tsconfig.json
+├── babel.config.js
+├── metro.config.js
+├── assets/                          # Images, icons, fonts
+│   ├── images/
+│   │   ├── logo.png
+│   │   ├── xxxx.png
+│   │   └── xxx.png
+│   ├── icons/
+│   └── fonts/
+├── src/
+│   ├── components/                  # Reusable UI components
+│   │   ├── common/
+│   │   │   ├── Button.tsx
+│   │   │   ├── Input.tsx
+│   │   │   ├──
+│   │   │   └──
+│   │   ├── product/
+│   │   │   ├── ProductCard.tsx
+│   │   │   ├── ProductList.tsx
+│   │   │   ├── ProductDetails.tsx
+│   │   │   └──
+│   │   ├── xxxx/
+│   │   │   ├──
+│   │   │   ├──
+│   │   │   └──
+│   │   └── xxx/
+│   │       └──
+│   ├── screens/                     # Screen components
+│   │   ├── HomeScreen.tsx
+│   │   ├── ProductListScreen.tsx
+│   │   ├── ProductDetailScreen.tsx
+│   │   ├── CartScreen.tsx
+│   │   ├──
+│   │   ├──
+│   │   └──
+│   ├── navigation/                  # Navigation configuration
+│   │   ├── AppNavigator.tsx
+│   │   ├── TabNavigator.tsx
+│   │   └──
+│   ├── store/                       # Redux store and slices
+│   │   ├── index.ts
+│   │   ├── slices/
+│   │   │   ├── productSlice.ts
+│   │   │   ├──
+│   │   │   ├──
+│   │   │   └──
+│   │   └── api/
+│   │       └──
+│   ├── services/                    # API calls and external services
+│   │   ├── api.ts
+│   │   ├──
+│   │   ├──
+│   │   ├──
+│   │   └──
+│   ├── utils/                       # Utility functions
+│   │   ├──
+│   │   ├──
+│   │   ├──
+│   │   └──
+│   ├── types/                       # TypeScript type definitions
+│   │   ├── product.ts
+│   │   ├──
+│   │   ├──
+│   │   └──
+│   ├── hooks/                       # Custom React hooks
+│   │   ├──
+│   │   ├──
+│   │   └──
+│   ├── styles/                      # Global styles and themes
+│   │   ├── theme.ts
+│   │   ├── colors.ts
+│   │   └── globalStyles.ts
+│   └── i18n/                        # Internationalization (future)
+│       ├── index.ts
+│       ├── en.json
+│       ├── mm.json
    ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
