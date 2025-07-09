@@ -80,3 +80,4 @@ const styles = StyleSheet.create({
     overflow: 'hidden',
   },
 });
+The new cloud computing project had been going well when Tammy, the project manager, received a call from an irate stakeholder that there were several issues on the project, and they were not being addressed or being given more visibility.Tammy knew that there was an issue log that had the current status information on these problems.Tammy was, therefore, not clear as to why the stakeholder was not aware of this.What would be the most appropriate action for Tammy ?
